@@ -29,7 +29,8 @@ class MyApp extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Container(
-                          margin: EdgeInsets.all(33),
+                         width: 100,height: 200,
+                         
                           alignment: Alignment.topLeft,
                           child: Text('option 1'),
                         ),
@@ -80,7 +81,8 @@ class MyApp extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Container(
-                          margin: EdgeInsets.all(33),
+                          width: 100,height: 200,
+                         
                           alignment: Alignment.topLeft,
                           child: Text('option 2'),
                         ),
@@ -132,7 +134,8 @@ class MyApp extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Container(
-                          margin: EdgeInsets.all(33),
+                         width: 100,height: 200,
+                         
                           alignment: Alignment.topLeft,
                           child: Text('option3'),
                         ),
@@ -188,8 +191,8 @@ class MyApp extends StatelessWidget {
                   child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Container(
-                          margin: EdgeInsets.all(33),
+                        Container(width: 100,height: 200,
+                         
                           alignment: Alignment.topLeft,
                           child: Text('option4'),
                         ),
